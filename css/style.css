@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em; 
     background-color: #FFFFFF;
     color: #434455; 
@@ -19,14 +19,32 @@ body {
 
                                                      /* header */
 
+.logo {
+font-family: raleway, sans-serif;
+font-weight: 700;
+font-size: 18px;
+color: #2E2F42;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none;
+}
+.logo-web {
+    color: #4D5AE5;
+}
+
 .nav-link {
     color: #2E2F42;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
     text-decoration: none;
 }
 .nav-link:hover ,
 .nav-link:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .contacts-link {
@@ -37,7 +55,7 @@ body {
 }
 .contacts-link:hover ,
 .contacts-link:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
                                                       /* hero */
@@ -51,7 +69,9 @@ background-color: #2E2F42;}
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
+    letter-spacing: 0.02em  ;
+    text-align: center;
     
 }
 
@@ -59,7 +79,7 @@ background-color: #2E2F42;}
     background-color: #4D5AE5;
     color: #FFFFFF;
     font-weight: 500;
-    
+    line-height: 1.5;
     letter-spacing: 0.04em;
 }
 .hero-button:hover,
@@ -72,28 +92,43 @@ background-color: #404BBF;
 .Our-Advantages-title  {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
 }
                                                 /* region team */
 .team {
-    background-color: #F4F4FD}
+    background-color: #FFFFFF}
 .Our-Team {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
+.team-text {
+font-size: 16px;}
                                                  /* region Our Portfolio*/
 
 .Our-Portfolio {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
 }
-
+.portfolio-title {letter-spacing: 0.02em;
+}
                                                        /* region footer */
 
 .footer {
 background-color: #2E2F42;}
+.footer-logo {
+    color: #F4F4FD;
+}
 .footer-text {
    color: #F4F4FD;
 }
