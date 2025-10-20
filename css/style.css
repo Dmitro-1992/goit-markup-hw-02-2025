@@ -46,9 +46,12 @@ text-decoration: none;
 .nav-link:focus {
     color: #404bbf;
 }
+.contacts {
+ font-style: normal
+}
 
 .contacts .contacts-link {
-    font-style: normal;
+    /* font-style: normal; */
     color: #434455;
     text-decoration: none;
 
