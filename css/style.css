@@ -20,17 +20,17 @@ body {
                                                      /* header */
 
 .logo {
-font-family: raleway, sans-serif;
+font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
-color: #2E2F42;
+color: #4D5AE5;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none;
 }
-.logo-web {
-    color: #4D5AE5;
+.logo-studio {
+    color: #2e2f42;
 }
 
 .nav-link {
@@ -97,9 +97,14 @@ background-color: #404BBF;
     text-align: center;
     text-transform: capitalize;
 }
+.advantages-title {
+    letter-spacing: 0.02em;
+    line-height: 1.1;
+}
+
                                                 /* region team */
 .team {
-    background-color: #FFFFFF}
+    background-color: #F4F4FD}
 .Our-Team {
     font-weight: 700;
     font-size: 36px;
@@ -108,26 +113,44 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+.team-title {
+    letter-spacing: 0.02em;
+    line-height: 1.1;
+}
 .team-text {
-font-size: 16px;}
+font-size: 16px;
+}
+.team-list {
+    background-color: #FFFFFF;}
                                                  /* region Our Portfolio*/
 
 .Our-Portfolio {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
 }
-.portfolio-title {letter-spacing: 0.02em;
+.portfolio-title {
+    letter-spacing: 0.02em;
 }
                                                        /* region footer */
 
 .footer {
 background-color: #2E2F42;}
-.footer-logo {
+.footer-studio {
     color: #F4F4FD;
+}
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #4D5AE5;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 .footer-text {
    color: #F4F4FD;
