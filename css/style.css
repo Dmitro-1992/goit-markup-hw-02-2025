@@ -123,8 +123,9 @@ background-color: #404BBF;
 .team-text {
 font-size: 16px;
 }
-.team > a {
-    background-color: #FFFFFF;}
+.team-item{
+    background-color: #FFFFFF;
+}
                                                  /* region Our Portfolio*/
 
 .our-portfolio {
